@@ -1,0 +1,9 @@
+[submodule "ai_omnai-nadi-driver-public_sw"]
+	path = ai_omnai-nadi-driver-public_sw
+	url = git@github.com:AI-Gruppe/ai_omnai-nadi-driver-public_sw.git
+[submodule "nadi_node_interconnect"]
+	path = nadi_node_interconnect
+	url = git@github.com:skunkforce/nadi_node_interconnect.git
+[submodule "nadi_signal-generator_node"]
+	path = nadi_signal-generator_node
+	url = git@github.com:skunkforce/nadi_signal-generator_node.git
