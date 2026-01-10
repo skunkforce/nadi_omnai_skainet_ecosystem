@@ -35,6 +35,20 @@
                 "instance_name":"signal_generator"
             },
             "target":[["context","0xF000"]]
+        },
+        {
+            "meta":{
+                "format":"json"
+            },
+            "data":{
+                "type":"context.node.create",
+                "abstract_name":"nadi_python_node_wrapper",
+                "instance_name":"python_wrapper",
+                "init":{
+                    "script_path":"../../../python_example_generator.py"
+                }
+            },
+            "target":[["context","0xF000"]]
         }
     ],
     [
@@ -67,9 +81,20 @@
                 "format":"json"
             },
             "data":{
-                "type":"printer test"
+                "type":"printer test."
             },
             "target":[["printer",1]]
+        },
+        {
+            "meta":{
+                "format":"json"
+            },
+            "data":{
+                "type":"wrapper test."
+            },
+            "target":[["python_wrapper",1]]
         }
     ]]
 }
+
+

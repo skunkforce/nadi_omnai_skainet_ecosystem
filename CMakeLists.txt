@@ -38,6 +38,7 @@ FetchContent_MakeAvailable(json)
 add_subdirectory(nadi_node_interconnect)
 add_subdirectory(nadi_signal-generator_node)
 add_subdirectory(ai_omnai-nadi-driver-public_sw)
+add_subdirectory(nadi_python_node_wrapper)
 
 # Optional: Set startup project for VS/VS Code
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT nadi_interconnect)

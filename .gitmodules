@@ -7,3 +7,6 @@
 [submodule "nadi_signal-generator_node"]
 	path = nadi_signal-generator_node
 	url = git@github.com:skunkforce/nadi_signal-generator_node.git
+[submodule "nadi_python_node_wrapper"]
+	path = nadi_python_node_wrapper
+	url = git@github.com:skunkforce/nadi_python_node_wrapper.git
