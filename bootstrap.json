@@ -1,6 +1,7 @@
 {
     "config":{
-        "number_of_threads":1
+        "number_of_threads":1,
+        "nodes_path":""
     },
     "messages":[[
         {
